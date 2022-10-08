@@ -18,7 +18,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="assets/admin/index2.html">Usuarios</a>
+   
   </div>
   <center>
   <img src="https://assets.stickpng.com/images/585e4beacb11b227491c3399.png"height="100"   />

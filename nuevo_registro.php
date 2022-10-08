@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     
 $resultado = $db->query($sql);
 if($resultado){
-    header ('location:index.php');
+    header ('location:alumno.php');
 }
 exit;
 
@@ -130,6 +130,7 @@ while($tipo = $resultado->fetch_assoc()){
             </div>
 
             <input type="submit" value="Guardar" class="btn btn-primary">
+            <a href="index.php" class="btn btn-danger">Regresar</a>
 
                 </form>
                 </div>
