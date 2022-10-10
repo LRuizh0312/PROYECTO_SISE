@@ -95,6 +95,7 @@ while($tipo = $resultado->fetch_assoc()){
 
             </select>
             </div>
+            
 
             <div class="mb-3">
                 <label for="tipoDocumento"class="form-label-">Tipo Documento:</label>
@@ -130,7 +131,7 @@ while($tipo = $resultado->fetch_assoc()){
             </div>
 
             <input type="submit" value="Guardar" class="btn btn-primary">
-            <a href="index.php" class="btn btn-danger">Regresar</a>
+            <a href="alumno.php" class="btn btn-danger">Regresar</a>
 
                 </form>
                 </div>

@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 $resultado = $db->query($sql);
 if($resultado){
-    header ('location:index.php');
+    header ('location:alumno.php');
    }
  exit;
 
